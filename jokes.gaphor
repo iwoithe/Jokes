@@ -19,8 +19,6 @@
 <ref refid="c24199a9-d8c8-11ed-8b79-087190d6200f"/>
 <ref refid="c88850bf-d8c8-11ed-9d55-087190d6200f"/>
 <ref refid="c88cdf90-d8ca-11ed-826e-087190d6200f"/>
-<ref refid="8dde681c-d982-11ed-b5a6-087190d6200f"/>
-<ref refid="8de66746-d982-11ed-a46c-087190d6200f"/>
 <ref refid="27a61bd7-d8df-11ed-938e-087190d6200f"/>
 <ref refid="324b1d72-d8df-11ed-8783-087190d6200f"/>
 <ref refid="36219840-d8df-11ed-84eb-087190d6200f"/>
@@ -55,7 +53,7 @@
 </Class>
 <ClassItem id="b52dbed0-d8c8-11ed-9a77-087190d6200f">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 265.4843483416793, 259.46324139545584)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 126.28672789173838, 252.97980763022875)</val>
 </matrix>
 <top-left>
 <val>(0.0, 0.0)</val>
@@ -124,7 +122,7 @@
 </reflist>
 </clientDependency>
 <name>
-<val>Foo</val>
+<val>JokesModel</val>
 </name>
 <ownedAttribute>
 <reflist>
@@ -149,13 +147,12 @@
 <presentation>
 <reflist>
 <ref refid="bf1669fd-d8c8-11ed-94bb-087190d6200f"/>
-<ref refid="8dde681c-d982-11ed-b5a6-087190d6200f"/>
 </reflist>
 </presentation>
 </Class>
 <ClassItem id="bf1669fd-d8c8-11ed-94bb-087190d6200f">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 685.276825106783, 399.46324139545584)</val>
+<val>(1.0, 0.0, 0.0, 1.0, -76.20224508747091, 492.2074871242432)</val>
 </matrix>
 <top-left>
 <val>(0.0, 0.0)</val>
@@ -216,7 +213,7 @@
 </ClassItem>
 <Class id="c887155e-d8c8-11ed-b93a-087190d6200f">
 <name>
-<val>Bar</val>
+<val>JokeModel</val>
 </name>
 <ownedAttribute>
 <reflist>
@@ -245,7 +242,6 @@
 <presentation>
 <reflist>
 <ref refid="c88850bf-d8c8-11ed-9d55-087190d6200f"/>
-<ref refid="8de66746-d982-11ed-a46c-087190d6200f"/>
 </reflist>
 </presentation>
 <supplierDependency>
@@ -256,7 +252,7 @@
 </Class>
 <ClassItem id="c88850bf-d8c8-11ed-9d55-087190d6200f">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 2257.500321069281, 624.7618529965372)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 3597.9778627224605, 701.2351784220284)</val>
 </matrix>
 <top-left>
 <val>(0.0, 0.0)</val>
@@ -912,7 +908,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 1221.5520982392682, 315.1485932386747)</val>
 </matrix>
 <points>
-<val>[(-611.8762729093605, 384.1933753735111), (-29.275273132485154, 139.9999999999999)]</val>
+<val>[(-611.8762729093605, 384.1933753735111), (-790.7543433267391, 232.7442457287873)]</val>
 </points>
 <head-connection>
 <ref refid="c88850bf-d8c8-11ed-9d55-087190d6200f"/>
@@ -956,7 +952,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 1221.9352763614293, 407.1263490055084)</val>
 </matrix>
 <points>
-<val>[(-604.104686611539, 292.2156196066774), (-29.658451254646252, 139.99999999999983)]</val>
+<val>[(-604.104686611539, 292.2156196066774), (-791.1375214489002, 232.74424572878723)]</val>
 </points>
 <head-connection>
 <ref refid="27a61bd7-d8df-11ed-938e-087190d6200f"/>
@@ -1044,7 +1040,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 1223.8054516577981, 468.84213378568217)</val>
 </matrix>
 <points>
-<val>[(-605.9748619079079, 230.49983482650367), (-31.528626551015122, 139.99999999999983)]</val>
+<val>[(-605.9748619079079, 230.49983482650367), (-793.0076967452691, 232.74424572878723)]</val>
 </points>
 <head-connection>
 <ref refid="36219840-d8df-11ed-84eb-087190d6200f"/>
@@ -1066,44 +1062,4 @@
 <ref refid="3880e1e5-d8df-11ed-8aae-087190d6200f"/>
 </supplier>
 </Dependency>
-<ClassItem id="8dde681c-d982-11ed-b5a6-087190d6200f">
-<matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 101.34523558001707, 371.3419686121858)</val>
-</matrix>
-<top-left>
-<val>(0.0, 0.0)</val>
-</top-left>
-<width>
-<val>507.0</val>
-</width>
-<height>
-<val>240.0</val>
-</height>
-<diagram>
-<ref refid="b1cf91d7-d8c8-11ed-bd53-087190d6200f"/>
-</diagram>
-<subject>
-<ref refid="bf152ba0-d8c8-11ed-989e-087190d6200f"/>
-</subject>
-</ClassItem>
-<ClassItem id="8de66746-d982-11ed-a46c-087190d6200f">
-<matrix>
-<val>(1.0, 0.0, 0.0, 1.0, -467.65476441998294, 448.842133785682)</val>
-</matrix>
-<top-left>
-<val>(0.0, 0.0)</val>
-</top-left>
-<width>
-<val>569.0</val>
-</width>
-<height>
-<val>320.0</val>
-</height>
-<diagram>
-<ref refid="b1cf91d7-d8c8-11ed-bd53-087190d6200f"/>
-</diagram>
-<subject>
-<ref refid="c887155e-d8c8-11ed-b93a-087190d6200f"/>
-</subject>
-</ClassItem>
 </gaphor>
