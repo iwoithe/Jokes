@@ -1,0 +1,347 @@
+{
+    "jokes": [
+        {
+            "id": 0,
+            "title": "Math Teacher: If I have 5 bottles in one hand and 6 in the other hand, what do I have?",
+            "body": "Student: A drinking problem",
+            "tags": ["Maths"],
+            "is_favourited": false
+        },
+        {
+            "id": 1,
+            "title": "I was up all night looking for the sun",
+            "body": "Then it dawned on me",
+            "tags": ["Sun"],
+            "is_favourited": true
+        },
+        {
+            "id": 2,
+            "title": "Today, while constipated, I decided to solve a difficult math problem.",
+            "body": "I was able to work it out with my pencil.",
+            "tags": ["Maths"],
+            "is_favourited": false
+        },
+        {
+            "id": 3,
+            "title": "I just wrote a review of a book that argues that math charts should use bolder lines.",
+            "body": "My review: \"The plot thickens\"",
+            "tags": ["Maths"],
+            "is_favourited": false
+        },
+        {
+            "id": 4,
+            "title": "There's no new jokes about math",
+            "body": "It's all derivatives",
+            "tags": ["Maths"],
+            "is_favourited": false
+        },
+        {
+            "id": 5,
+            "title": "The one who created the memes font really changed the world.",
+            "body": "I mean, he really made an impact.",
+            "tags": ["Font"],
+            "is_favourited": false
+        },
+        {
+            "id": 6,
+            "title": "I received a letter from my opticians, but I'm concerned about their print.",
+            "body": "Either it's failing or they used a blurry font. So weird.",
+            "tags": ["Font"],
+            "is_favourited": false
+        },
+        {
+            "id": 7,
+            "title": "I saw a giant mouse so I tried killing it with a baseball bat.",
+            "body": "So now I have a lifetime ban from Disneyland.",
+            "tags": ["Mouse"],
+            "is_favourited": false
+        },
+        {
+            "id": 8,
+            "title": "I put some batteries in my mouse yesterday.",
+            "body": "And now I'm banned from the pet store.",
+            "tags": ["Mouse"],
+            "is_favourited": false
+        },
+        {
+            "id": 9,
+            "title": "Patient: Doctor, doctor! I broke my arm in two places.",
+            "body": "Doctor: Then don't go to those places.",
+            "tags": ["Doctor, doctor"],
+            "is_favourited": false
+        },
+        {
+            "id": 10,
+            "title": "Macbeth.docx",
+            "body": "That's a play on word.",
+            "tags": ["English"],
+            "is_favourited": false
+        },
+        {
+            "id": 11,
+            "title": "If you serve your kids frozen pizza or chicken nuggests for tea, you are a terrible parent.",
+            "body": "I don't care how busy you are, at least find the time to microwave them first.",
+            "tags": ["Chicken"],
+            "is_favourited": false
+        },
+        {
+            "id": 12,
+            "title": "What came first, the chicken or the egg?",
+            "body": "An egg can't come.",
+            "tags": ["Chicken", "Egg"],
+            "is_favourited": false
+        },
+        {
+            "id": 13,
+            "title": "Did you know that humans eat more bananas than monkeys?",
+            "body": "When was the last time you ate a monkey?",
+            "tags": ["Banana"],
+            "is_favourited": false
+        },
+        {
+            "id": 14,
+            "title": "\"I'm going bananas.\"",
+            "body": "That's what I tell the bananas when I'm leaving the house.",
+            "tags": ["Banana"],
+            "is_favourited": false
+        },
+        {
+            "id": 15,
+            "title": "I'm starting a minimalist orchestra!",
+            "body": "It's just like a regular orchestra but without the bells and whistles.",
+            "tags": ["Music", "Orchestra"],
+            "is_favourited": false
+        },
+        {
+            "id": 16,
+            "title": "My friend has designed an invisible aeroplane.",
+            "body": "I can't see it taking off.",
+            "tags": ["Physics", "Invisibility", "Plane"],
+            "is_favourited": false
+        },
+        {
+            "id": 17,
+            "title": "I really don't like thinking about gravity.",
+            "body": "It always brings me down.",
+            "tags": ["Physics"],
+            "is_favourited": false
+        },
+        {
+            "id": 18,
+            "title": "Did you hear about the activist who fought agains gravity?",
+            "body": "They started an uprising.",
+            "tags": ["Physics"],
+            "is_favourited": false
+        },
+        {
+            "id": 20,
+            "title": "Everything was great until gravity was invented.",
+            "body": "Things went downhill after that.",
+            "tags": ["Physics"],
+            "is_favourited": false
+        },
+        {
+            "id": 21,
+            "title": "Gravity is really important as a fundamental force of nature.",
+            "body": "But if you get rid of it you get gravy.",
+            "tags": ["Physics"],
+            "is_favourited": false
+        },
+        {
+            "id": 22,
+            "title": "I'm reading a book about anti-gravity.",
+            "body": "It's a nice bit of light reading.",
+            "tags": ["Physics"],
+            "is_favourited": false
+        },
+        {
+            "id": 23,
+            "title": "What's the most terrifying word in experimental nuclear physics?",
+            "body": "Oops!",
+            "tags": ["Physics"],
+            "is_favourited": false
+        },
+        {
+            "id": 24,
+            "title": "I will name my son Physics.",
+            "body": "So that I will be called the Father of Physics.",
+            "tags": ["Physics"],
+            "is_favourited": false
+        },
+        {
+            "id": 25,
+            "title": "A bunch of neutrinos walk through a bar.",
+            "body": "",
+            "tags": ["Physics"],
+            "is_favourited": false
+        },
+        {
+            "id": 26,
+            "title": "A teacher asks Little Jonny, \"What do you want to be when you grow up?\"",
+            "body": "Little Jonny replies, \"I want to be a policeman and follow my dad's footsteps.\"\n\"But your dad isn't a policeman Jonny.\"\n\"I know, he's a burglar.\"",
+            "tags": ["Little Jonny", "Police"],
+            "is_favourited": false
+        },
+        {
+            "id": 27,
+            "title": "My balloon elephant wouldn't fit in the back seat of my car.",
+            "body": "So I had to pop the trunk.",
+            "tags": ["Car", "Balloons"],
+            "is_favourited": false
+        },
+        {
+            "id": 28,
+            "title": "A man has been stealing wheels of police cars.",
+            "body": "Police are working tirelessly to catch him.",
+            "tags": ["Car"],
+            "is_favourited": false
+        },
+        {
+            "id": 29,
+            "title": "What's worse than finding a bomb under your car?",
+            "body": "Not finding it.",
+            "tags": ["Car"],
+            "is_favourited": false
+        },
+        {
+            "id": 30,
+            "title": "Almost every day I hear car alarms going off around the city.",
+            "body": "But never in my life have I seen a car wake up.",
+            "tags": ["Car"],
+            "is_favourited": false
+        },
+        {
+            "id": 31,
+            "title": "The cop asked, \"Whose car is this? Where are you headed? What do you do?\"",
+            "body": "The miner replied, \"Mine.\"",
+            "tags": ["Car"],
+            "is_favourited": false
+        },
+        {
+            "id": 32,
+            "title": "A man is driving home from work when he gets a call from his wife.",
+            "body": "\"Be careful on the road honey. I heard on the news that there's a car going the wrong way on the highway.\"\n\"It's not just one car,\" he responds, \"It's hundreds of them!\"",
+            "tags": ["Car"],
+            "is_favourited": false
+        },
+        {
+            "id": 33,
+            "title": "My car mechanic called me and said, \"You can pick up your car by 5 PM.\"",
+            "body": "I said, \"I don't think I'll be strong enough by then.\"",
+            "tags": ["Car"],
+            "is_favourited": false
+        },
+        {
+            "id": 34,
+            "title": "Two men are working on a car.",
+            "body": "One man says, \"Let's call it a day.\"\nThe other man says, \"Well, that's a weird name for a car.\"",
+            "tags": ["Car"],
+            "is_favourited": false
+        },
+        {
+            "id": 35,
+            "title": "What do you call a belt made out of watches?",
+            "body": "A waist of time.",
+            "tags": ["Watch", "Time", "Belt"],
+            "is_favourited": false
+        },
+        {
+            "id": 36,
+            "title": "Why do the ferris wheel and the merry-go-round never go on holiday together?",
+            "body": "Because they travel on different planes.",
+            "tags": ["Ferris wheel", "Merry go round", "Holiday", "Travel"],
+            "is_favourited": false
+        },
+        {
+            "id": 37,
+            "title": "I told my kinds I was gonna take them to that place with the ferris wheel and cotton candy, but instead I took them to the dentist.",
+            "body": "They said it wasn't fair.",
+            "tags": ["Ferris wheel", "Dentist", "Fair"],
+            "is_favourited": false
+        },
+        {
+            "id": 38,
+            "title": "My girlfriend broke up with me at our favourite date spot. I was so shocked and heart-broken I got up and immediately stormed out the door.",
+            "body": "And that's how I fell off the ferris wheel.",
+            "tags": ["Ferris wheel", "Break up"],
+            "is_favourited": false
+        },
+        {
+            "id": 39,
+            "title": "Calculus has a steep learning curve.",
+            "body": "But at least you know exactly how steep the learning curve is!",
+            "tags": ["Maths", "Calculus"],
+            "is_favourited": false
+        },
+        {
+            "id": 40,
+            "title": "Someone told me they didn't like calculus.",
+            "body": "I told them their opinion would change over time.",
+            "tags": ["Maths", "Calculus"],
+            "is_favourited": false
+        },
+        {
+            "id": 41,
+            "title": "I failed my calculus exam because I was sitting between two identical twins.",
+            "body": "It was impossible to differentiate between them.",
+            "tags": ["Maths", "Calculus"],
+            "is_favourited": false
+        },
+        {
+            "id": 42,
+            "title": "I can tolerate algebra, maybe even a little calculus.",
+            "body": "But geometry is where I draw the line.",
+            "tags": ["Maths", "Calculus", "Geometry"],
+            "is_favourited": false
+        },
+        {
+            "id": 43,
+            "title": "I failed calculus when we reached differentiation.",
+            "body": "I guess I should have known my limits. I could barely derive anything from what the teacher taught us.",
+            "tags": ["Maths", "Calculus"],
+            "is_favourited": false
+        },
+        {
+            "id": 44,
+            "title": "There are many problems with math puns.",
+            "body": "Calculus jokes are mostly derivative, trigonometry jokes are too graphic, algebra jokes are usually formulaic, and arithmetic jokes are pretty basic. But the occasional statistics joke is an outlier.",
+            "tags": ["Maths", "Calculus", "Trigonometry"],
+            "is_favourited": false
+        },
+        {
+            "id": 45,
+            "title": "My friend said that I make people uncomfortable by invading their personal space.",
+            "body": "It was a very hurtful thing to say and it completely ruined our bath.",
+            "tags": ["Bath", "Personal space"],
+            "is_favourited": false
+        },
+        {
+            "id": 46,
+            "title": "If Russia invades Turkey from the rear...",
+            "body": "Would Greece help?",
+            "tags": ["Greece", "Russia", "Turkey"],
+            "is_favourited": false
+        },
+        {
+            "id": 47,
+            "title": "My friend told me his dog could bring him a ball from a mile away.",
+            "body": "Sounds pretty far fetched.",
+            "tags": ["Dog"],
+            "is_favourited": false
+        },
+        {
+            "id": 48,
+            "title": "I called my wife and told her that I'll pick up pizza and coke on the way back from work. But is seems she was not happy.",
+            "body": "She still regrets letting me name the kids.",
+            "tags": ["Pizza"],
+            "is_favourited": false
+        },
+        {
+            "id": 49,
+            "title": "An apple a day keeps the doctor away.",
+            "body": "Especially if you throw it at him.",
+            "tags": ["Apple"],
+            "is_favourited": false
+        }
+    ]
+}

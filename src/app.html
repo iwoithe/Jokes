@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%sveltekit.assets%/favicon.png" />
+    <meta name="viewport" content="width=device-width" />
+    <script>
+      // See https://stackoverflow.com/questions/75588582/unable-to-create-a-custom-tauri-window-title-bar-in-sveltekit
+      // import { appWindow } from '@tauri-apps/api/window'
+    </script>
+    %sveltekit.head%
+  </head>
+  <body class="bg-green">
+    <div data-tauri-drag-region class="titlebar">
+      <div class="titlebar-button titlebar-normal-button" id="titlebar-minimize">
+        <svg width="16" height="16" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
+        </svg>
+      </div>
+      <div class="titlebar-button titlebar-normal-button" id="titlebar-maximize">
+        <svg width="16" height="16" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"/>
+        </svg>
+      </div>
+      <div class="titlebar-button titlebar-close-button" id="titlebar-close">
+        <svg width="16" height="16" viewBox="0 0 16 16">
+          <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+        </svg>
+      </div>
+    </div>
+    <div>%sveltekit.body%</div>
+  </body>
+</html>
