@@ -25,6 +25,7 @@ impl JokeModel {
     pub fn save(&self) {
         // let j = serde_json::to_string();
         // println!("{:#?}", j);
+        todo!();
     }
 
     pub fn get_id(&self) -> usize {
