@@ -112,13 +112,17 @@ pub fn set_joke_is_favourited(jokes_model_state: State<JokesModelState>, joke_id
 #[tauri::command]
 pub fn get_filtered_jokes(jokes_model_state: State<JokesModelState>, fav_filter: String, tag_filters: Vec<String>) -> Vec<JokeModel> {
     let fav_filter_val: FavFilter;
-    
+
+    let all_string: String = String::from("all");
+    let fav_string: String = String::from("favourited");
+    let non_fav_string: String = String::from("non-favourited");
+
     match fav_filter {
-        "all" => fav_filter_val = FavFilter::All,
-        "favourited" => fav_filter_val = FavFilter::Favourited,
-        "non-favourited" => fav_filter_val = FavFilter::NonFavourited
+        all_string => fav_filter_val = FavFilter::All,
+        fav_string => fav_filter_val = FavFilter::Favourited,
+        non_fav_string => fav_filter_val = FavFilter::NonFavourited
     }
-    
+
     jokes_model_state.0.lock().unwrap().get_filtered_jokes(fav_filter_val, tag_filters)
 }
 
