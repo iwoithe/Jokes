@@ -317,27 +317,20 @@
         },
         {
             "id": 46,
-            "title": "If Russia invades Turkey from the rear...",
-            "body": "Would Greece help?",
-            "tags": ["Greece", "Russia", "Turkey"],
-            "is_favourited": false
-        },
-        {
-            "id": 47,
             "title": "My friend told me his dog could bring him a ball from a mile away.",
             "body": "Sounds pretty far fetched.",
             "tags": ["Dog"],
             "is_favourited": false
         },
         {
-            "id": 48,
+            "id": 47,
             "title": "I called my wife and told her that I'll pick up pizza and coke on the way back from work. But is seems she was not happy.",
             "body": "She still regrets letting me name the kids.",
             "tags": ["Pizza"],
             "is_favourited": false
         },
         {
-            "id": 49,
+            "id": 48,
             "title": "An apple a day keeps the doctor away.",
             "body": "Especially if you throw it at him.",
             "tags": ["Apple"],
