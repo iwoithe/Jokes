@@ -49,8 +49,8 @@
         <!-- TODO: Add black separator line after each joke -->
         <Favourite jokeId={ id }></Favourite>
         <div class="browse-joke-content">
-            <p class="text-body-bold text-align-left">{title}</p>
-            <p class="text-body text-align-left">{body}</p>
+            <p class="text-body-bold text-align-left">{@html title}</p>
+            <p class="text-body text-align-left">{@html body}</p>
           </div>
       </div>
     {/each}
