@@ -178,7 +178,7 @@
         {
             "id": 26,
             "title": "A teacher asks Little Jonny, \"What do you want to be when you grow up?\"",
-            "body": "Little Jonny replies, \"I want to be a policeman and follow my dad's footsteps.\"\n\"But your dad isn't a policeman Jonny.\"\n\"I know, he's a burglar.\"",
+            "body": "Little Jonny replies, \"I want to be a policeman and follow my dad's footsteps.\"<br>\"But your dad isn't a policeman Jonny.\"<br>\"I know, he's a burglar.\"",
             "tags": ["Little Jonny", "Police"],
             "is_favourited": false
         },
@@ -220,7 +220,7 @@
         {
             "id": 32,
             "title": "A man is driving home from work when he gets a call from his wife.",
-            "body": "\"Be careful on the road honey. I heard on the news that there's a car going the wrong way on the highway.\"\n\"It's not just one car,\" he responds, \"It's hundreds of them!\"",
+            "body": "\"Be careful on the road honey. I heard on the news that there's a car going the wrong way on the highway.\"<br>\"It's not just one car,\" he responds, \"It's hundreds of them!\"",
             "tags": ["Car"],
             "is_favourited": false
         },
@@ -234,7 +234,7 @@
         {
             "id": 34,
             "title": "Two men are working on a car.",
-            "body": "One man says, \"Let's call it a day.\"\nThe other man says, \"Well, that's a weird name for a car.\"",
+            "body": "One man says, \"Let's call it a day.\"<br>The other man says, \"Well, that's a weird name for a car.\"",
             "tags": ["Car"],
             "is_favourited": false
         },
@@ -334,6 +334,461 @@
             "title": "An apple a day keeps the doctor away.",
             "body": "Especially if you throw it at him.",
             "tags": ["Apple"],
+            "is_favourited": false
+        },
+        {
+            "id": 49,
+            "title": "How did the hackers get away from the crime scene?",
+            "body": "They ransomware.",
+            "tags": ["Hacker", "Computer"],
+            "is_favourited": false
+        },
+        {
+            "id": 50,
+            "title": "My computer program won't run.",
+            "body": "Do I need to install legs or something?",
+            "tags": ["Computer"],
+            "is_favourited": false
+        },
+        {
+            "id": 51,
+            "title": "How did computers run before Microsoft?",
+            "body": "Well.",
+            "tags": ["Microsoft", "Computer"],
+            "is_favourited": false
+        },
+        {
+            "id": 52,
+            "title": "Me: Sorry I'm late. I was having computer issues.",
+            "body": "Boss: Hard drive?<br>Me: The commute was fine. It's my laptop.",
+            "tags": ["Computer"],
+            "is_favourited": false
+        },
+        {
+            "id": 53,
+            "title": "I've just bought one of those new singing computers.",
+            "body": "It's a Dell.",
+            "tags": ["Computer"],
+            "is_favourited": false
+        },
+        {
+            "id": 54,
+            "title": "My password is \"Incorrect\".",
+            "body": "That way, if I type in a different password, it reminds me \"Your password is incorrect\". And then I remember.",
+            "tags": ["Computer", "Password"],
+            "is_favourited": false
+        },
+        {
+            "id": 55,
+            "title": "Why is the computer keyboard working so hard?",
+            "body": "Because it has two shifts.",
+            "tags": ["Computer", "Keyboard"],
+            "is_favourited": false
+        },
+        {
+            "id": 56,
+            "title": "My doctor told me the only exercise that will get rid of my big belly.",
+            "body": "I asked him if I should join a gym. He said, \"No, that's not necessary. Here's the exercise you need: move your head back and forth from left to right anytime someone asks you if you'd like something to eat.\"",
+            "tags": ["Exercise"],
+            "is_favourited": false
+        },
+        {
+            "id": 57,
+            "title": "My New Year's Resolution is to exercise more.",
+            "body": "I hope it works out.",
+            "tags": ["Exercise"],
+            "is_favourited": false
+        },
+        {
+            "id": 58,
+            "title": "How many mathematicians does it take to change a lightbulb?",
+            "body": "The punchline is trivial and has been left as an exercise for the reader.",
+            "tags": ["Exercise", "Maths"],
+            "is_favourited": false
+        },
+        {
+            "id": 59,
+            "title": "Doctor: How often do you exercise?",
+            "body": "Me: 3 times.<br>Doctor: A week? A month?<br>Me: I have given my answer.",
+            "tags": [],
+            "is_favourited": false
+        },
+        {
+            "id": 60,
+            "title": "My dad died because of a lack of exercise.",
+            "body": "He didn't run when the bus was coming.",
+            "tags": ["Bus", "Exercise"],
+            "is_favourited": false
+        },
+        {
+            "id": 61,
+            "title": "I don't exercise when I'm sick.",
+            "body": "My nose does the running for me.",
+            "tags": ["Exercise", "Sick"],
+            "is_favourited": false
+        },
+        {
+            "id": 62,
+            "title": "Exercise is like a drug to me.",
+            "body": "That's why I'm drug free.",
+            "tags": ["Exercise", "Drug"],
+            "is_favourited": false
+        },
+        {
+            "id": 63,
+            "title": "I never thought I'd be the type of person to wake up at 5 in the morning to exercise.",
+            "body": "I was right.",
+            "tags": ["Exercise"],
+            "is_favourited": false
+        },
+        {
+            "id": 64,
+            "title": "I respect giraffes.",
+            "body": "They're an animal I can look up to.",
+            "tags": ["Animal", "Giraffe"],
+            "is_favourited": false
+        },
+        {
+            "id": 65,
+            "title": "Why didn't the audience laugh at the giraffe's joke?",
+            "body": "It went over their heads.",
+            "tags": ["Animal", "Giraffe"],
+            "is_favourited": false
+        },
+        {
+            "id": 66,
+            "title": "A giraffe can grow up to 18 feet.",
+            "body": "But they usually only have 4.",
+            "tags": ["Animal", "Giraffe"],
+            "is_favourited": false
+        },
+        {
+            "id": 67,
+            "title": "Why is it cheap to feed a giraffe?",
+            "body": "A little goes a long way.",
+            "tags": ["Animal", "Giraffe"],
+            "is_favourited": false
+        },
+        {
+            "id": 68,
+            "title": "A giraffe walks into a bar.",
+            "body": "Giraffes aren't good at playing limbo.",
+            "tags": ["Animal", "Giraffe"],
+            "is_favourited": false
+        },
+        {
+            "id": 69,
+            "title": "500 bricks on a plane",
+            "body": "<i>There are 500 bricks on a plane, one falls off, how many are left?</i><br>499<br><i>What are the 3 simple steps of putting an elephant in a refrigerator?</i><br>Open refrigerator, put elephant in, close refrigerator.<br><i>What are the 4 simple steps of putting a giraffe in a refrigerator?</i><br>Open refrigerator, take elephant out, put giraffe in, close refigerator.<br><i>It's the lion's birthday and he invites everyone in the jungle. Everyone turns up but one animal, which animal is it and why?</i><br>The giraffe, he's in the refrigerator.<br><i>Sally is an explorer. She is walking through a jungle when suddenly she comes across a crocodile infested river. There are no bridges over it. Sally swims over and is not bitten by a single crocodile. How?</i><br>All the crocodiles are at the lion's party.<br><i>Sally dies anyway, why?</i><br>She is hit in the head by a brick.",
+            "tags": ["Animal", "Crocodile", "Elephant", "Giraffe", "Refrigerator"],
+            "is_favourited": false
+        },
+        {
+            "id": 70,
+            "title": "I caught a bus yesterday.",
+            "body": "Now I need to buy a new fishing rod.",
+            "tags": ["Bus", "Fishing"],
+            "is_favourited": false
+        },
+        {
+            "id": 71,
+            "title": "What do you get if you cross a river with a school bus?",
+            "body": "Fired.",
+            "tags": ["Bus", "River"],
+            "is_favourited": false
+        },
+        {
+            "id": 72,
+            "title": "I heard a joke about a speeding bus the other day.",
+            "body": "I didn't get it at first. Then it hit me.",
+            "tags": ["Bus"],
+            "is_favourited": false
+        },
+        {
+            "id": 73,
+            "title": "Don't want to die alone?",
+            "body": "Become a bus driver.",
+            "tags": ["Bus"],
+            "is_favourited": false
+        },
+        {
+            "id": 74,
+            "title": "Not saying I live in a rough area, but I just bought an advent calendar and half the windows are boarded up.",
+            "body": "",
+            "tags": ["Advent calendar"],
+            "is_favourited": false
+        },
+        {
+            "id": 75,
+            "title": "The CEO of IKEA was elected Prime Minister in Sweden.",
+            "body": "He should have his cabinet together by the end of the weekend.",
+            "tags": ["Sweden", "IKEA", "Prime Minister"],
+            "is_favourited": false
+        },
+        {
+            "id": 76,
+            "title": "Before I criticise a man, I like to walk a mile in his shoes.",
+            "body": "That way, when I do criticise him, I'm a mile away and I have his shoes.",
+            "tags": ["Criticising"],
+            "is_favourited": false
+        },
+        {
+            "id": 77,
+            "title": "I'm great at multitasking. I can waste time, be unproductive, and procrastinate all at once.",
+            "body": "",
+            "tags": ["Life", "Time", "Work", "Multitasking"],
+            "is_favourited": false
+        },
+        {
+            "id": 78,
+            "title": "Today a man knocked on my door and asked for a small donation towards the local swimming pool.",
+            "body": "I gave him a glass of water.",
+            "tags": ["Pool", "Swimming", "Donation"],
+            "is_favourited": false
+        },
+        {
+            "id": 79,
+            "title": "I think my neightbour is stalking me as she's been googling my name on her computer.",
+            "body": "I saw it through my telescope last night.",
+            "tags": ["Stalking", "Hypocrite"],
+            "is_favourited": false
+        },
+        {
+            "id": 80,
+            "title": "Intelligence is like underwear.",
+            "body": "It's important that you have it, but not necessary that you show it off.",
+            "tags": ["Underwear", "Intelligence"],
+            "is_favourited": false
+        },
+        {
+            "id": 81,
+            "title": "Apparently I snore so loudly that it scares everyone in the car I'm driving.",
+            "body": "",
+            "tags": ["Car", "Snoring", "Sleeping"],
+            "is_favourited": false
+        },
+        {
+            "id": 82,
+            "title": "I can't believe I got fired from the calendar factory.",
+            "body": "All I did was take a day off.",
+            "tags": ["Calendar", "Work"],
+            "is_favourited": false
+        },
+        {
+            "id": 83,
+            "title": "I tried to explain to my 4-year-old son that's perfectly normal to accidentally poop your pants, but he's still making fun of me.",
+            "body": "",
+            "tags": [],
+            "is_favourited": false
+        },
+        {
+            "id": 84,
+            "title": "Lance is an uncommon name nowadays.",
+            "body": "But in medieval times people were named Lanced a lot.",
+            "tags": ["Lance", "Name", "Medieval"],
+            "is_favourited": false
+        },
+        {
+            "id": 85,
+            "title": "My wife and I were happy for twenty years.",
+            "body": "Then we met.",
+            "tags": ["Marriage"],
+            "is_favourited": false
+        },
+        {
+            "id": 86,
+            "title": "I used to think I was undecisive, but now I'm not too sure.",
+            "body": "",
+            "tags": ["Decisive"],
+            "is_favourited": false
+        },
+        {
+            "id": 87,
+            "title": "I have a few jokes about unemployed people.",
+            "body": "Unfortunately none of them work.",
+            "tags": ["Work", "Unemployed"],
+            "is_favourited": false
+        },
+        {
+            "id": 88,
+            "title": "That awkward moment when you leave a store without buying anything.",
+            "body": "All you can think is, \"Act natural, you're innocent.\"",
+            "tags": ["Money"],
+            "is_favourited": false
+        },
+        {
+            "id": 89,
+            "title": "The problem with trouble shooting is that trouble shoots back.",
+            "body": "",
+            "tags": ["Trouble"],
+            "is_favourited": false
+        },
+        {
+            "id": 90,
+            "title": "Did you hear about the guy who got hit in the head with a can of soda?",
+            "body": "He was lucky it was a soft drink.",
+            "tags": ["Soda", "Soft drink"],
+            "is_favourited": false
+        },
+        {
+            "id": 91,
+            "title": "I want to die peacefully in my sleep like my grandfather.",
+            "body": "Not screaming and yelling like the passengers in his car.",
+            "tags": ["Car"],
+            "is_favourited": false
+        },
+        {
+            "id": 92,
+            "title": "I'd tell you a chemistry joke, but I know I wouldn't get a reaction.",
+            "body": "",
+            "tags": ["Chemistry", "Reaction"],
+            "is_favourited": false
+        },
+        {
+            "id": 93,
+            "title": "I'm glad I know sign language.",
+            "body": "It's pretty handy.",
+            "tags": ["Sign language"],
+            "is_favourited": false
+        },
+        {
+            "id": 94,
+            "title": "I asked my wife to embrace her mistakes.",
+            "body": "She gave me a hug.",
+            "tags": ["Marriage", "Mistake"],
+            "is_favourited": false
+        },
+        {
+            "id": 95,
+            "title": "ebay is so useless.",
+            "body": "I tried looking up lighters and all they had was 13,749 matches.",
+            "tags": ["ebay", "Lighters", "Matches"],
+            "is_favourited": false
+        },
+        {
+            "id": 96,
+            "title": "Don't trust atoms.",
+            "body": "They make up everything.",
+            "tags": ["Atom", "Chemistry"],
+            "is_favourited": false
+        },
+        {
+            "id": 97,
+            "title": "Don't spell part backwards.",
+            "body": "It's a trap.",
+            "tags": ["Spelling"],
+            "is_favourited": false
+        },
+        {
+            "id": 98,
+            "title": "The future, the present and the past walked into a bar.",
+            "body": "Things got a little tense.",
+            "tags": ["Grammar", "Bar"],
+            "is_favourited": false
+        },
+        {
+            "id": 99,
+            "title": "I became addicted to the hokey pokey.",
+            "body": "Thankfully I turned myself around.",
+            "tags": ["Hokey pokey", "Addiction"],
+            "is_favourited": false
+        },
+        {
+            "id": 100,
+            "title": "Thanks for explaining the word \"many\" to me.",
+            "body": "It means a lot.",
+            "tags": ["Language", "Definition"],
+            "is_favourited": false
+        },
+        {
+            "id": 101,
+            "title": "Just read that 4,153,237 people got married last year.",
+            "body": "Not to cause any trouble, but shound't that be an even number?",
+            "tags": ["Marriage"],
+            "is_favourited": false
+        },
+        {
+            "id": 102,
+            "title": "Life is all about perspective.",
+            "body": "The sinking of the Titanic was a miracle to the lobsters in the ship's kitchen.",
+            "tags": ["Perspective", "Titanic", "Lobsters", "Miracle"],
+            "is_favourited": false
+        },
+        {
+            "id": 103,
+            "title": "Feeling pretty proud of myself.",
+            "body": "The Sesame Street puzzle I bought said 3 - 5 years, but I finished it in 18 months.",
+            "tags": ["Sesame Street", "Puzzle"],
+            "is_favourited": false
+        },
+        {
+            "id": 104,
+            "title": "I gave up my seat to a blind person in the bus.",
+            "body": "That is how I lost my job as a bus driver.",
+            "tags": ["Bus"],
+            "is_favourited": false
+        },
+        {
+            "id": 105,
+            "title": "Just burned 2,000 calories.",
+            "body": "That's the last time I leave brownies in the oven while I nap.",
+            "tags": ["Cooking", "Sleeping", "Nap"],
+            "is_favourited": false
+        },
+        {
+            "id": 106,
+            "title": "I married my wife for her looks.",
+            "body": "But not the ones she's giving me lately.",
+            "tags": ["Marriage"],
+            "is_favourited": false
+        },
+        {
+            "id": 107,
+            "title": "I'm not saying your perfume is too strong.",
+            "body": "I'm just saying the canary was alive before you got here.",
+            "tags": ["Animal", "Canary", "Perfume"],
+            "is_favourited": false
+        },
+        {
+            "id": 108,
+            "title": "The police just knocked on my door and told me that my dogs were chasing people on bikes.",
+            "body": "My dogs don't even own bikes.",
+            "tags": ["Dog", "Police", "Bike", "Bicycle"],
+            "is_favourited": false
+        },
+        {
+            "id": 109,
+            "title": "I can totally keep secrets.",
+            "body": "It's the people I tell them to that can't.",
+            "tags": ["Secret", "Hypocrite"],
+            "is_favourited": false
+        },
+        {
+            "id": 110,
+            "title": "The universe is made up of protons, neutrons, electrons and morons.",
+            "body": "",
+            "tags": ["Chemistry", "Physics", "Science"],
+            "is_favourited": false
+        },
+        {
+            "id": 111,
+            "title": "I bought a vacuum cleaner six months ago.",
+            "body": "So far all it's been doing is gathering dust.",
+            "tags": ["Vacuume cleaner", "Dust"],
+            "is_favourited": false
+        },
+        {
+            "id": 112,
+            "title": "My girlfriend said, \"You act like a detective too much. I want to split up.\"",
+            "body": "\"Good idea,\" I replied. \"We can cover more ground that way.\"",
+            "tags": ["Love", "Detective"],
+            "is_favourited": false
+        },
+        {
+            "id": 113,
+            "title": "If you think nobody cares wheter you're alive, try missing a couple payments.",
+            "body": "",
+            "tags": ["Money", "Payments"],
             "is_favourited": false
         }
     ]
