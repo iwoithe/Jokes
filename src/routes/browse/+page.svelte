@@ -49,7 +49,9 @@
         <Favourite jokeId={ id }></Favourite>
         <div class="browse-joke-content">
             <p class="text-body-bold text-align-left">{@html title}</p>
-            <p class="text-body text-align-left">{@html body}</p>
+            {#if body !== ""}
+              <p class="text-body text-align-left">{@html body}</p>
+            {/if}
           </div>
       </div>
     {/each}
