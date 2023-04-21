@@ -37,9 +37,9 @@
         </svg>
         Browse
       </a>
-      <button class="btn bg-pink text-body">
+      <a class="btn bg-pink text-body text-black text-dec-none" href="/browse?favFilter=favourited">
         Favourites
-      </button>
+      </a>
     </div>
 
     <div class="index-container">

@@ -8,6 +8,30 @@
   import Tag from '$lib/Tag.svelte';
   import { invalidateAll } from '$app/navigation';
   import { invoke } from '@tauri-apps/api/tauri';
+  import { onMount } from 'svelte';
+  import { page } from '$app/stores';
+
+  let isActiveVariables = {
+    "all": false,
+    "favourited": false,
+    "nonFavourited": false
+  };
+
+  let allTagActive = false;
+  let favouritedTagActive = false;
+  let nonFavouritedTagActive = false;
+
+  onMount(async () => {
+    if ($page.url.searchParams.get('favFilter') === "favourited") {
+      allTagActive = false;
+      favouritedTagActive = true;
+      nonFavouritedTagActive = false;
+    } else {
+      allTagActive = true;
+      favouritedTagActive = false;
+      nonFavouritedTagActive = false;
+    };
+  });
 
   async function updateFilter(e) {
     let tags = [];
@@ -35,9 +59,9 @@
   <!-- TODO: All/Favourited/Non-favourited -->
   <div class="fav-filter-container">
     <!-- TODO: Tag group (only allow one tag to be selected, not multiple) -->
-    <Tag text="All" isActive={true} />
-    <Tag text="Favourited" isActive={false} />
-    <Tag text="Non-favourited" isActive={false} />
+    <Tag id="all" text="All" isActive={allTagActive} />
+    <Tag id="favourited" text="Favourited" isActive={favouritedTagActive} />
+    <Tag id="non-favourited" text="Non-favourited" isActive={nonFavouritedTagActive} />
   </div>
 
   <!-- TODO: Style -->

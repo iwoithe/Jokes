@@ -10,6 +10,7 @@ use tauri::State;
 pub struct AppDataModel {
     pub current_joke_index: usize,
     pub joke_history: Vec<usize>,
+    pub fav_filter: String,
     pub tag_filters: Vec<String>
 }
 
@@ -18,6 +19,7 @@ impl AppDataModel {
         Self {
             current_joke_index: 0,
             joke_history: vec![0],
+            fav_filter: String::from("all"),
             tag_filters: Vec::new()
         }
     }
@@ -113,14 +115,19 @@ pub fn set_joke_is_favourited(jokes_model_state: State<JokesModelState>, joke_id
 pub fn get_filtered_jokes(jokes_model_state: State<JokesModelState>, fav_filter: String, tag_filters: Vec<String>) -> Vec<JokeModel> {
     let fav_filter_val: FavFilter;
 
-    let all_string: String = String::from("all");
-    let fav_string: String = String::from("favourited");
-    let non_fav_string: String = String::from("non-favourited");
-
-    match fav_filter {
-        all_string => fav_filter_val = FavFilter::All,
-        fav_string => fav_filter_val = FavFilter::Favourited,
-        non_fav_string => fav_filter_val = FavFilter::NonFavourited
+    match fav_filter.as_str() {
+        "all" => {
+            fav_filter_val = FavFilter::All;
+        },
+        "favourited" => {
+            fav_filter_val = FavFilter::Favourited;
+        },
+        "non-favourited" => {
+            fav_filter_val = FavFilter::NonFavourited;
+        },
+        _ => {
+            fav_filter_val = FavFilter::All;
+        }
     }
 
     jokes_model_state.0.lock().unwrap().get_filtered_jokes(fav_filter_val, tag_filters)
@@ -153,6 +160,16 @@ pub fn get_joke(jokes_model_state: State<JokesModelState>, joke_id: usize) -> Jo
 #[tauri::command]
 pub fn get_used_tags(jokes_model_state: State<JokesModelState>) -> Vec<String> {
     jokes_model_state.0.lock().unwrap().get_used_tags()
+}
+
+#[tauri::command]
+pub fn get_fav_filter(app_data_model_state: State<AppDataModelState>) -> String {
+    app_data_model_state.0.lock().unwrap().fav_filter.to_owned()
+}
+
+#[tauri::command]
+pub fn set_fav_filter(app_data_model_state: State<AppDataModelState>, fav_filter: String) {
+    app_data_model_state.0.lock().unwrap().fav_filter = fav_filter;
 }
 
 #[tauri::command]

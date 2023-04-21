@@ -9,6 +9,8 @@ pub use appdatamodel::{
     previous_joke,
     get_filtered_jokes,
     get_used_tags,
+    get_fav_filter,
+    set_fav_filter,
     get_tag_filters,
     set_tag_filters,
     get_jokes,

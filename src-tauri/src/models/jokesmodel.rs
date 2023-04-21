@@ -9,6 +9,7 @@ use std::sync::Mutex;
 
 use rand::Rng;
 
+#[derive(Debug)]
 pub enum FavFilter {
     All,
     Favourited,
@@ -49,26 +50,26 @@ impl JokesModel {
     pub fn get_filtered_jokes(&self, fav_filter: FavFilter, tag_filters: Vec<String>) -> Vec<JokeModel> {
         // TODO: For performance reasons, avoid cloning/copying/duplicating data
         self.jokes
-            .clone()
-            .into_iter()
-            .filter(|j| {
-                match fav_filter {
-                    FavFilter::All => true,
-                    FavFilter::Favourited => j.get_is_favourited(),
-                    FavFilter::NonFavourited => !j.get_is_favourited()
+        .clone()
+        .into_iter()
+        .filter(|j| {
+            match fav_filter {
+                FavFilter::All => true,
+                FavFilter::Favourited => j.get_is_favourited(),
+                FavFilter::NonFavourited => !j.get_is_favourited()
+            }
+        })
+        .filter(|j| {
+            for tag in tag_filters.clone() {
+                if !j.get_tags().contains(&tag.to_string()) {
+                    return false;
                 }
-            })
-            .filter(|j| {
-                for tag in tag_filters.clone() {
-                    if !j.get_tags().contains(&tag.to_string()) {
-                        return false;
-                    }
-                }
-                
-                true
-                
-            })
-            .collect::<Vec<JokeModel>>()
+            }
+            
+            true
+            
+        })
+        .collect::<Vec<JokeModel>>()
     }
 
     pub fn get_used_tags(&self) -> Vec<String> {
