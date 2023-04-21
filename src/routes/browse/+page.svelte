@@ -46,7 +46,6 @@
   <div class="browse-jokes-view">
     {#each data.jokes as { body, id, is_favourited, tags, title } }
       <div class="browse-joke">
-        <!-- TODO: Add black separator line after each joke -->
         <Favourite jokeId={ id }></Favourite>
         <div class="browse-joke-content">
             <p class="text-body-bold text-align-left">{@html title}</p>
