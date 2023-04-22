@@ -125,7 +125,7 @@
 <val>173.0</val>
 </width>
 <height>
-<val>140.0</val>
+<val>160.0</val>
 </height>
 <diagram>
 <ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
@@ -142,7 +142,8 @@
 <reflist>
 <ref refid="e3212b25-d98d-11ed-b709-087190d6200f"/>
 <ref refid="e3223c79-d98d-11ed-a7f7-087190d6200f"/>
-<ref refid="e323c43b-d98d-11ed-8111-087190d6200f"/>
+<ref refid="4dab0a5a-e036-11ed-a385-482ae361ee38"/>
+<ref refid="53ad3df3-e036-11ed-a9a0-482ae361ee38"/>
 </reflist>
 </ownedAttribute>
 <ownedOperation>
@@ -179,17 +180,6 @@
 </name>
 <typeValue>
 <val>Vec&lt;usize&gt;</val>
-</typeValue>
-</Property>
-<Property id="e323c43b-d98d-11ed-8111-087190d6200f">
-<class_>
-<ref refid="e320b5e1-d98d-11ed-9a9d-087190d6200f"/>
-</class_>
-<name>
-<val>tag_filters</val>
-</name>
-<typeValue>
-<val>Vec&lt;String&gt;</val>
 </typeValue>
 </Property>
 <Operation id="e32538fe-d98d-11ed-8bd6-087190d6200f">
@@ -897,4 +887,26 @@
 <val>usize</val>
 </typeValue>
 </Parameter>
+<Property id="4dab0a5a-e036-11ed-a385-482ae361ee38">
+<class_>
+<ref refid="e320b5e1-d98d-11ed-9a9d-087190d6200f"/>
+</class_>
+<name>
+<val>fav_filter</val>
+</name>
+<typeValue>
+<val>FavFilter</val>
+</typeValue>
+</Property>
+<Property id="53ad3df3-e036-11ed-a9a0-482ae361ee38">
+<class_>
+<ref refid="e320b5e1-d98d-11ed-9a9d-087190d6200f"/>
+</class_>
+<name>
+<val>tag_filters</val>
+</name>
+<typeValue>
+<val>Vec&lt;String&gt;</val>
+</typeValue>
+</Property>
 </gaphor>
