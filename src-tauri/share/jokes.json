@@ -515,7 +515,7 @@
             "id": 74,
             "title": "Not saying I live in a rough area, but I just bought an advent calendar and half the windows are boarded up.",
             "body": "",
-            "tags": ["Advent calendar"],
+            "tags": ["Advent calendar", "Calendar"],
             "is_favourited": false
         },
         {
@@ -711,7 +711,7 @@
             "id": 102,
             "title": "Life is all about perspective.",
             "body": "The sinking of the Titanic was a miracle to the lobsters in the ship's kitchen.",
-            "tags": ["Perspective", "Titanic", "Lobsters", "Miracle"],
+            "tags": ["Perspective", "Titanic", "Lobsters", "Miracle", "Attitude"],
             "is_favourited": false
         },
         {
@@ -789,6 +789,27 @@
             "title": "If you think nobody cares wheter you're alive, try missing a couple payments.",
             "body": "",
             "tags": ["Money", "Payments"],
+            "is_favourited": false
+        },
+        {
+            "id": 114,
+            "title": "I'd tell you a joke about poo, but it would stink.",
+            "body": "",
+            "tags": ["Poo"],
+            "is_favourited": false
+        },
+        {
+            "id": 115,
+            "title": "A German shepherd poos on my lawn every day.",
+            "body": "Yesterday he brought a dog.",
+            "tags": ["Dog", "Poo"],
+            "is_favourited": false
+        },
+        {
+            "id": 116,
+            "title": "Putin is reportedly extremely angry about his bridge getting blown up.",
+            "body": "He needs to get over it.",
+            "tags": ["Putin", "Bridge"],
             "is_favourited": false
         }
     ]
