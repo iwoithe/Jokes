@@ -8,5 +8,4 @@ This template should help get you started developing with Tauri and Svelte-Kit i
 
 ## To Do
 
-- `cargo add surrealdb`
-- `cargo add rand`
+- Duplicate joke (81 and 91)
