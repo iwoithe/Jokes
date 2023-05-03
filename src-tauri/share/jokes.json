@@ -178,7 +178,7 @@
         {
             "id": 26,
             "title": "A teacher asks Little Jonny, \"What do you want to be when you grow up?\"",
-            "body": "Little Jonny replies, \"I want to be a policeman and follow my dad's footsteps.\"<br>\"But your dad isn't a policeman Jonny.\"<br>\"I know, he's a burglar.\"",
+            "body": "Little Jonny replies, \"I want to be a policeman and follow my dad's footsteps.\"<br><br>\"But your dad isn't a policeman Jonny.\"<br><br>\"I know, he's a burglar.\"",
             "tags": ["Little Jonny", "Police"],
             "is_favourited": false
         },
@@ -220,7 +220,7 @@
         {
             "id": 32,
             "title": "A man is driving home from work when he gets a call from his wife.",
-            "body": "\"Be careful on the road honey. I heard on the news that there's a car going the wrong way on the highway.\"<br>\"It's not just one car,\" he responds, \"It's hundreds of them!\"",
+            "body": "\"Be careful on the road honey. I heard on the news that there's a car going the wrong way on the highway.\"<br><br>\"It's not just one car,\" he responds, \"It's hundreds of them!\"",
             "tags": ["Car"],
             "is_favourited": false
         },
@@ -234,7 +234,7 @@
         {
             "id": 34,
             "title": "Two men are working on a car.",
-            "body": "One man says, \"Let's call it a day.\"<br>The other man says, \"Well, that's a weird name for a car.\"",
+            "body": "One man says, \"Let's call it a day.\"<br><br>The other man says, \"Well, that's a weird name for a car.\"",
             "tags": ["Car"],
             "is_favourited": false
         },
@@ -360,7 +360,7 @@
         {
             "id": 52,
             "title": "Me: Sorry I'm late. I was having computer issues.",
-            "body": "Boss: Hard drive?<br>Me: The commute was fine. It's my laptop.",
+            "body": "Boss: Hard drive?<br><br>Me: The commute was fine. It's my laptop.",
             "tags": ["Computer"],
             "is_favourited": false
         },
@@ -409,7 +409,7 @@
         {
             "id": 59,
             "title": "Doctor: How often do you exercise?",
-            "body": "Me: 3 times.<br>Doctor: A week? A month?<br>Me: I have given my answer.",
+            "body": "Me: 3 times.<br><br>Doctor: A week? A month?<br><br>Me: I have given my answer.",
             "tags": [],
             "is_favourited": false
         },
@@ -479,7 +479,7 @@
         {
             "id": 69,
             "title": "500 bricks on a plane",
-            "body": "<i>There are 500 bricks on a plane, one falls off, how many are left?</i><br>499<br><i>What are the 3 simple steps of putting an elephant in a refrigerator?</i><br>Open refrigerator, put elephant in, close refrigerator.<br><i>What are the 4 simple steps of putting a giraffe in a refrigerator?</i><br>Open refrigerator, take elephant out, put giraffe in, close refigerator.<br><i>It's the lion's birthday and he invites everyone in the jungle. Everyone turns up but one animal, which animal is it and why?</i><br>The giraffe, he's in the refrigerator.<br><i>Sally is an explorer. She is walking through a jungle when suddenly she comes across a crocodile infested river. There are no bridges over it. Sally swims over and is not bitten by a single crocodile. How?</i><br>All the crocodiles are at the lion's party.<br><i>Sally dies anyway, why?</i><br>She is hit in the head by a brick.",
+            "body": "<i>There are 500 bricks on a plane, one falls off, how many are left?</i><br><br>499<br><br><i>What are the 3 simple steps of putting an elephant in a refrigerator?</i><br><br>Open refrigerator, put elephant in, close refrigerator.<br><br><i>What are the 4 simple steps of putting a giraffe in a refrigerator?</i><br><br>Open refrigerator, take elephant out, put giraffe in, close refigerator.<br><br><i>It's the lion's birthday and he invites everyone in the jungle. Everyone turns up but one animal, which animal is it and why?</i><br><br>The giraffe, he's in the refrigerator.<br><br><i>Sally is an explorer. She is walking through a jungle when suddenly she comes across a crocodile infested river. There are no bridges over it. Sally swims over and is not bitten by a single crocodile. How?</i><br><br>All the crocodiles are at the lion's party.<br><br><i>Sally dies anyway, why?</i><br><br>She is hit in the head by a brick.",
             "tags": ["Animal", "Crocodile", "Elephant", "Giraffe", "Refrigerator"],
             "is_favourited": false
         },
