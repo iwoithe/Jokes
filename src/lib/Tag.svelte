@@ -17,6 +17,6 @@
   }
 </script>
 
-<div class="tag" class:tag-active={isActive} on:click={toggle}>
+<div class="tag" class:tag-active={isActive} role="presentation" on:click>
   <p class="text-small text-align-center">{text}</p>
 </div>

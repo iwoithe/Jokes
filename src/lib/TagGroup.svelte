@@ -1,3 +1,3 @@
-<script lang="ts">
-  export let isActiveVariables;
-</script>
+<div class="fav-filter-container">
+  <slot />
+</div>

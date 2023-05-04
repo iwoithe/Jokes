@@ -6,31 +6,36 @@
   
   import Favourite from "$lib/Favourite.svelte";
   import Tag from '$lib/Tag.svelte';
+  import TagGroup from '$lib/TagGroup.svelte';
   import { invalidateAll } from '$app/navigation';
   import { invoke } from '@tauri-apps/api/tauri';
   import { onMount } from 'svelte';
   import { page } from '$app/stores';
 
-  let isActiveVariables = {
-    "all": false,
-    "favourited": false,
-    "nonFavourited": false
-  };
+  let activeTagId = "all";
 
-  let allTagActive = false;
-  let favouritedTagActive = false;
-  let nonFavouritedTagActive = false;
+  async function handleTagClick(tagId: string) {
+    activeTagId = tagId;
+
+    await invoke("set_fav_filter", {
+      favFilter: activeTagId
+    });
+
+    invalidateAll();
+  }
 
   onMount(async () => {
     if ($page.url.searchParams.get('favFilter') === "favourited") {
-      allTagActive = false;
-      favouritedTagActive = true;
-      nonFavouritedTagActive = false;
+      activeTagId = "favourited";
     } else {
-      allTagActive = true;
-      favouritedTagActive = false;
-      nonFavouritedTagActive = false;
+      activeTagId = "all";
     };
+
+    await invoke("set_fav_filter", {
+      favFilter: activeTagId
+    });
+
+    invalidateAll();
   });
 
   async function updateFilter(e) {
@@ -56,13 +61,11 @@
     <h1 class="text-title text-align-center">Browse</h1>
   </div>
 
-  <!-- TODO: All/Favourited/Non-favourited -->
-  <div class="fav-filter-container">
-    <!-- TODO: Tag group (only allow one tag to be selected, not multiple) -->
-    <Tag id="all" text="All" isActive={allTagActive} />
-    <Tag id="favourited" text="Favourited" isActive={favouritedTagActive} />
-    <Tag id="non-favourited" text="Non-favourited" isActive={nonFavouritedTagActive} />
-  </div>
+  <TagGroup>
+    <Tag id="all" text="All" isActive={activeTagId === "all"} on:click={function() { handleTagClick("all"); } } />
+    <Tag id="favourited" text="Favourited" isActive={activeTagId === "favourited"} on:click={function() { handleTagClick("favourited"); } } />
+    <Tag id="non-favourited" text="Non-favourited" isActive={activeTagId === "non-favourited"} on:click={function() { handleTagClick("non-favourited"); } } />
+  </TagGroup>
 
   <!-- TODO: Style -->
   <Select class="tag-filter-input" closeListOnChange={false} items={data.tags} multiple={true} placeholder="Add tag filters" on:input={updateFilter} />
