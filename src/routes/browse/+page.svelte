@@ -74,6 +74,9 @@
   <Select class="tag-filter-input" closeListOnChange={false} items={data.tags} multiple={true} placeholder="Add tag filters" on:input={updateFilter} />
 
   <div class="browse-jokes-view">
+    {#if data.jokes.length === 0}
+      <p class="text-body text-align-center">Sorry, no jokes found.</p>
+    {/if}
     {#each data.jokes as { body, id, is_favourited, tags, title } }
       <div class="browse-joke">
         <Favourite jokeId={ id } isFavourited={ is_favourited }></Favourite>
