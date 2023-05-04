@@ -296,16 +296,16 @@
         },
         {
             "id": 43,
-            "title": "I failed calculus when we reached differentiation.",
-            "body": "I guess I should have known my limits. I could barely derive anything from what the teacher taught us.",
-            "tags": ["Maths", "Calculus"],
+            "title": "A horse walks into a bar.",
+            "body": "And loses the limbo contest.",
+            "tags": ["Limbo", "Horse", "Animal", "Bar"],
             "is_favourited": false
         },
         {
             "id": 44,
-            "title": "There are many problems with math puns.",
-            "body": "Calculus jokes are mostly derivative, trigonometry jokes are too graphic, algebra jokes are usually formulaic, and arithmetic jokes are pretty basic. But the occasional statistics joke is an outlier.",
-            "tags": ["Maths", "Calculus", "Trigonometry"],
+            "title": "Which word is always spelled wrong in the dictionary?",
+            "body": "Wrong.",
+            "tags": ["Dictionary", "Word", "Spelling"],
             "is_favourited": false
         },
         {
@@ -913,7 +913,7 @@
         {
             "id": 131,
             "title": "Doctor: \"I have good news and bad news.\"",
-            "body": "Patient: \"What's the good news?\"<br><br>Doctor: \"The good news is you have 24 hours left to live.\"<br><br>Patient: \"What's the bad new?\"<br><br>Doctor: \"The bad news is I should've told you that yesterday.\"",
+            "body": "Patient: \"What's the good news?\"<br><br>Doctor: \"The good news is you have 24 hours left to live.\"<br><br>Patient: \"What's the bad news?\"<br><br>Doctor: \"The bad news is I should've told you that yesterday.\"",
             "tags": ["Doctor, doctor", "Doctor"],
             "is_favourited": false
         },
