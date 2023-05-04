@@ -14,8 +14,8 @@
 
   let activeTagId = "all";
 
-  async function handleTagClick(tagId: string) {
-    activeTagId = tagId;
+  async function setFavFilter(favFilter: string) {
+    activeTagId = favFilter;
 
     await invoke("set_fav_filter", {
       favFilter: activeTagId
@@ -24,18 +24,16 @@
     invalidateAll();
   }
 
+  async function handleTagClick(tagId: string) {
+    setFavFilter(tagId);
+  }
+
   onMount(async () => {
     if ($page.url.searchParams.get('favFilter') === "favourited") {
-      activeTagId = "favourited";
+      setFavFilter("favourited");
     } else {
-      activeTagId = "all";
+      setFavFilter("all");
     };
-
-    await invoke("set_fav_filter", {
-      favFilter: activeTagId
-    });
-
-    invalidateAll();
   });
 
   async function updateFilter(e) {
