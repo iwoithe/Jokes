@@ -31,7 +31,7 @@
     },
     "bundle": {
       "active": true,
-      "category": "DeveloperTool",
+      "category": "Entertainment",
       "copyright": "",
       "deb": {
         "depends": []
@@ -44,7 +44,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "com.iwoithe",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -53,6 +53,7 @@
         "providerShortName": null,
         "signingIdentity": null
       },
+      "publisher": "Ilias Woithe",
       "resources": [],
       "shortDescription": "",
       "targets": "all",
@@ -70,12 +71,13 @@
     },
     "windows": [
       {
+        "center": true,
         "decorations": false,
         "fullscreen": false,
-        "height": 700,
+        "height": 650,
         "resizable": true,
         "title": "Jokes",
-        "width": 800
+        "width": 1100
       }
     ]
   }
