@@ -6,31 +6,14 @@
   import { onMount } from 'svelte';
 
   export let jokeId;
-
-  let isFavourited;
-  // $: console.log(jokeId + "'s changed: " + isFavourited);
-
-  onMount(async () => {
-    let joke = await invoke("get_joke", {
-      jokeId: jokeId
-    });
-
-    // console.log("1: " + isFavourited);
-    isFavourited = joke.is_favourited;
-    // console.log("2: " + isFavourited);
-  });
+  export let isFavourited = false;
 
   async function toggle() {
-    // TODO: After every mount, it takes 2 clicks to toggle, then acts as normal
-    let jokePromise = await invoke("get_joke", {
-      jokeId
-    });
-    // console.log(isFavourited);
-    isFavourited = await jokePromise.is_favourited;
-    // console.log(isFavourited);
+    isFavourited = !isFavourited;
+
     await invoke("set_joke_is_favourited", {
       jokeId: jokeId,
-      val: !isFavourited
+      val: isFavourited
     });
   }
 </script>

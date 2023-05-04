@@ -76,7 +76,7 @@
   <div class="browse-jokes-view">
     {#each data.jokes as { body, id, is_favourited, tags, title } }
       <div class="browse-joke">
-        <Favourite jokeId={ id }></Favourite>
+        <Favourite jokeId={ id } isFavourited={ is_favourited }></Favourite>
         <div class="browse-joke-content">
             <p class="text-body-bold text-align-left">{@html title}</p>
             {#if body !== ""}

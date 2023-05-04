@@ -55,7 +55,7 @@
       </button>
       <!-- Content -->
       <div class="index-joke-container bg-white">
-        <Favourite jokeId={ data.current_joke.id }></Favourite>
+        <Favourite jokeId={ data.current_joke.id } isFavourited={ data.current_joke.is_favourited }></Favourite>
         <p id="joke-title-text" class="text-body-bold">{ @html data.current_joke.title }</p>
         {#if data.current_joke.body !== ""}
           <p id="joke-body-text" class="text-body">{ @html data.current_joke.body }</p>
