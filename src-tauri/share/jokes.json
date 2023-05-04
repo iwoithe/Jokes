@@ -18,7 +18,7 @@
             "id": 2,
             "title": "Today, while constipated, I decided to solve a difficult math problem.",
             "body": "I was able to work it out with my pencil.",
-            "tags": ["Maths"],
+            "tags": ["Maths", "Constipated", "Poo"],
             "is_favourited": false
         },
         {
@@ -65,9 +65,9 @@
         },
         {
             "id": 9,
-            "title": "Patient: Doctor, doctor! I broke my arm in two places.",
-            "body": "Doctor: Then don't go to those places.",
-            "tags": ["Doctor, doctor"],
+            "title": "Patient: \"Doctor, doctor! I broke my arm in two places.\"",
+            "body": "Doctor: \"Then don't go to those places.\"",
+            "tags": ["Doctor, doctor", "Doctor"],
             "is_favourited": false
         },
         {
@@ -703,7 +703,7 @@
         {
             "id": 101,
             "title": "Just read that 4,153,237 people got married last year.",
-            "body": "Not to cause any trouble, but shound't that be an even number?",
+            "body": "Not to cause any trouble, but shouldn't that be an even number?",
             "tags": ["Marriage"],
             "is_favourited": false
         },
@@ -774,7 +774,7 @@
             "id": 111,
             "title": "I bought a vacuum cleaner six months ago.",
             "body": "So far all it's been doing is gathering dust.",
-            "tags": ["Vacuume cleaner", "Dust"],
+            "tags": ["Vacuum cleaner", "Dust"],
             "is_favourited": false
         },
         {
@@ -810,6 +810,167 @@
             "title": "Putin is reportedly extremely angry about his bridge getting blown up.",
             "body": "He needs to get over it.",
             "tags": ["Putin", "Bridge"],
+            "is_favourited": false
+        },
+        {
+            "id": 117,
+            "title": "What do you call Postman Pat after he retires?",
+            "body": "Pat.",
+            "tags": ["Postman Pat", "TV Show"],
+            "is_favourited": false
+        },
+        {
+            "id": 118,
+            "title": "As a doctor I often get asked why I use that rubber hammer to tap patient's knees.",
+            "body": "I don't know. I just get a kick out of it.",
+            "tags": ["Doctor", "Hammer", "Knee"],
+            "is_favourited": false
+        },
+        {
+            "id": 119,
+            "title": "Doctor, doctor! I can't feel my legs!",
+            "body": "\"I know,\" says the doctor, \"I amputated your arms.\"",
+            "tags": ["Doctor, doctor", "Doctor"],
+            "is_favourited": false
+        },
+        {
+            "id": 120,
+            "title": "Me: \"Doctor, doctor! I feel like a deck of cards.\"",
+            "body": "Doctor: \"Sit down, I'll deal with you later.\"",
+            "tags": ["Doctor, doctor", "Doctor"],
+            "is_favourited": false
+        },
+        {
+            "id": 121,
+            "title": "\"Doctor doctor! there's a man on the phone who claims he's invisible!\"",
+            "body": "Doctor: \"Well tell him I can't see him right now.\"",
+            "tags": ["Doctor, doctor", "Doctor"],
+            "is_favourited": false
+        },
+        {
+            "id": 122,
+            "title": "Patient: \"Doctor, doctor! I see double!\"",
+            "body": "Doctor: \"Sit on the chair please.\"<br><br>Patient: \"Which one?\"",
+            "tags": ["Doctor, doctor", "Doctor"],
+            "is_favourited": false
+        },
+        {
+            "id": 123,
+            "title": "Patient: \"Doctor, doctor! I only have 59 seconds to live!\"",
+            "body": "Doctor: \"Hang on a minute.\"",
+            "tags": [],
+            "is_favourited": false
+        },
+        {
+            "id": 124,
+            "title": "A guy isn't feeling well, and goes to the doctor.",
+            "body": "Doctor: \"I have good news and bad news. Which do you want first?\"<br><br>The guy: \"I guess I'll get the good news first.\"<br><br>Doctor: \"You're going to get something named after you.\"",
+            "tags": ["Doctor"],
+            "is_favourited": false
+        },
+        {
+            "id": 125,
+            "title": "My doctor told me that I was going deaf 3 years ago.",
+            "body": "I haven't heard from him since.",
+            "tags": ["Doctor"],
+            "is_favourited": false
+        },
+        {
+            "id": 126,
+            "title": "Doctor: \"You don't look too good. Do you smoke or drink alcohol?\"",
+            "body": "Me: \"I drink it.\"",
+            "tags": ["Doctor"],
+            "is_favourited": false
+        },
+        {
+            "id": 127,
+            "title": "Patient: \"Doctor, doctor! Every time I drink coffee I get pain in my eye.\"",
+            "body": "Doctor: \"Take the spoon out of your cup.\"",
+            "tags": ["Doctor, doctor", "Doctor"],
+            "is_favourited": false
+        },
+        {
+            "id": 128,
+            "title": "Doctor (handing me my new born baby): \"I'm sorry but your wife didn't make it.\"",
+            "body": "Me (handing the baby back to him): \"Bring me the one my wife made.\"",
+            "tags": ["Doctor"],
+            "is_favourited": false
+        },
+        {
+            "id": 129,
+            "title": "My doctor gave me three months to live.",
+            "body": "When I told him I wouldn't be able to come up with the money to pay the bill by then, he gave me three more.",
+            "tags": ["Doctor"],
+            "is_favourited": false
+        },
+        {
+            "id": 130,
+            "title": "Patient: \"Doctor, doctor! I'm addicted to Twitter!\"",
+            "body": "Doctor: \"Sorry, I don't follow you.\"",
+            "tags": ["Doctor, doctor", "Doctor", "Twitter"],
+            "is_favourited": false
+        },
+        {
+            "id": 131,
+            "title": "Doctor: \"I have good news and bad news.\"",
+            "body": "Patient: \"What's the good news?\"<br><br>Doctor: \"The good news is you have 24 hours left to live.\"<br><br>Patient: \"What's the bad new?\"<br><br>Doctor: \"The bad news is I should've told you that yesterday.\"",
+            "tags": ["Doctor, doctor", "Doctor"],
+            "is_favourited": false
+        },
+        {
+            "id": 132,
+            "title": "Doctor: \"Well, your arm is broken. You'll need a cast for about 8 weeks and you'll be good as new.\"",
+            "body": "Me: \"When the cast comes off, will I be able to play the piano?\"<br><br>Doctor: \"I don't see why not.\"<br><br>Me: \"Awesome! I've always wanted to play the piano.\"",
+            "tags": ["Doctor"],
+            "is_favourited": false
+        },
+        {
+            "id": 133,
+            "title": "The doctor gave me these pills and said I need to take one pill everyday for the rest of my life.",
+            "body": "I looked at the bottle and said, \"But doctor, there are only 3 pills in here.\"",
+            "tags": ["Doctor"],
+            "is_favourited": false
+        },
+        {
+            "id": 134,
+            "title": "My husband and I role played in bed last night for 3 hours. He was the doctor and I was the patient.",
+            "body": "I was in the waiting room for 2 hours and 58 minutes.",
+            "tags": ["Doctor"],
+            "is_favourited": false
+        },
+        {
+            "id": 135,
+            "title": "I was charged $200 just to see a doctor.",
+            "body": "And I don't even get to keep the binoculars.",
+            "tags": ["Doctor", "Binocular"],
+            "is_favourited": false
+        },
+        {
+            "id": 136,
+            "title": "Patient: \"Doctor, doctor! I'm having dark thoughts and I may be suicidal. What should I do?\"",
+            "body": "Doctor: \"Pay in advance.\"",
+            "tags": ["Doctor, doctor", "Doctor"],
+            "is_favourited": false
+        },
+        {
+            "id": 137,
+            "title": "I lost three fingers on my right hand, so I asked my doctor if I would still be able to write with it.",
+            "body": "He said: \"Maybe, but I wouldn't count on it.",
+            "tags": ["Doctor"],
+            "is_favourited": false
+        },
+        {
+            "id": 138,
+            "title": "As a doctor, I never make a joke about vaccines.",
+            "body": "But I think I'll give it a shot.",
+            "tags": ["Doctor", "Vaccine"],
+            "is_favourited": false
+        },
+        {
+            "id": 139,
+            "title": "I told my doctor I have one coffee every day.",
+            "body": "Eight cups, but it's the same coffee.",
+            "tags": ["Doctor", "Coffee"],
             "is_favourited": false
         }
     ]
