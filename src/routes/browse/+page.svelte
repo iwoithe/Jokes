@@ -78,11 +78,11 @@
       <div class="browse-joke">
         <Favourite jokeId={ id } isFavourited={ is_favourited }></Favourite>
         <div class="browse-joke-content">
-            <p class="text-body-bold text-align-left">{@html title}</p>
-            {#if body !== ""}
-              <p class="text-body text-align-left">{@html body}</p>
-            {/if}
-          </div>
+          <p class="text-body-bold text-align-left">{@html title}</p>
+          {#if body !== ""}
+            <p class="text-body text-align-left">{@html body}</p>
+          {/if}
+        </div>
       </div>
     {/each}
   </div>
