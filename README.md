@@ -9,3 +9,5 @@ This template should help get you started developing with Tauri and Svelte-Kit i
 ## To Do
 
 - Duplicate joke (81 and 91)
+
+- Fix window buttons not working (minimize/maximize/close)
