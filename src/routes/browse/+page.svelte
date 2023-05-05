@@ -7,6 +7,7 @@
   import Favourite from "$lib/Favourite.svelte";
   import Tag from '$lib/Tag.svelte';
   import TagGroup from '$lib/TagGroup.svelte';
+  import Separator from '$lib/Separator.svelte';
   import { invalidateAll } from '$app/navigation';
   import { invoke } from '@tauri-apps/api/tauri';
   import { onMount } from 'svelte';
@@ -77,7 +78,7 @@
     {#if data.jokes.length === 0}
       <p class="text-body text-align-center">Sorry, no jokes found.</p>
     {/if}
-    {#each data.jokes as { body, id, is_favourited, tags, title } }
+    {#each data.jokes as { body, id, is_favourited, tags, title }, index }
       <div class="browse-joke">
         <Favourite jokeId={ id } isFavourited={ is_favourited }></Favourite>
         <div class="browse-joke-content">
@@ -87,6 +88,10 @@
           {/if}
         </div>
       </div>
+
+      {#if index < data.jokes.length - 1}
+        <Separator />
+      {/if}
     {/each}
   </div>
 

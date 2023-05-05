@@ -276,6 +276,11 @@ button {
   background: var(--pink);
 }
 
+.separator {
+  border-bottom: 0.2em solid black;
+  border-radius: 1em;
+}
+
 /* END utility classes */
 
 /* Actual app CSS */
