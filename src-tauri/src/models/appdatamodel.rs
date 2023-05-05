@@ -46,7 +46,6 @@ pub fn next_joke(app_data_model_state: State<AppDataModelState>, jokes_model_sta
     let rand_index = jokes_model.get_random_joke();
     app_data_model.current_joke_index = rand_index;
     app_data_model.joke_history.push(rand_index);
-    println!("{:#?}", app_data_model.joke_history);
 }
 
 #[tauri::command]
