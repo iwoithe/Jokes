@@ -53,7 +53,7 @@ pub fn previous_joke(app_data_model_state: State<AppDataModelState>, jokes_model
     let mut app_data_model = app_data_model_state.0.lock().unwrap();
     let mut jokes_model = jokes_model_state.0.lock().unwrap();
 
-    if (app_data_model.joke_history.len() > 1) {
+    if app_data_model.joke_history.len() > 1 {
         app_data_model.joke_history.pop();
     }
 
