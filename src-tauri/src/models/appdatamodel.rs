@@ -53,13 +53,15 @@ pub fn next_joke(app_data_model_state: State<AppDataModelState>, jokes_model_sta
 pub fn previous_joke(app_data_model_state: State<AppDataModelState>, jokes_model_state: State<JokesModelState>) {
     let mut app_data_model = app_data_model_state.0.lock().unwrap();
     let mut jokes_model = jokes_model_state.0.lock().unwrap();
-    println!("{:#?}", app_data_model.joke_history);
+
+    if (app_data_model.joke_history.len() > 1) {
+        app_data_model.joke_history.pop();
+    }
+
     match app_data_model.joke_history.len() {
-        0 | 1 => {},
+        0 => {},
         _ => {
-            println!("Current joke index (before): {:#?}", app_data_model.current_joke_index);
-            app_data_model.current_joke_index = app_data_model.joke_history[app_data_model.joke_history.len() - 2];
-            println!("Current joke index (after): {:#?}", app_data_model.current_joke_index);
+            app_data_model.current_joke_index = app_data_model.joke_history[app_data_model.joke_history.len() - 1];
         }
     };
 }
