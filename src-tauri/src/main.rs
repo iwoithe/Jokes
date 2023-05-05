@@ -30,13 +30,18 @@ use models::{
 };
 
 fn main() {
+    let mut aps: AppDataModelState = AppDataModelState(Default::default());
+    let mut jms: JokesModelState = JokesModelState(Default::default());
+
+    jms.0.lock().unwrap().load();
+
+    let rand_index = jms.0.lock().unwrap().get_random_joke();
+    aps.0.lock().unwrap().current_joke_index = rand_index;
+    aps.0.lock().unwrap().joke_history.push(rand_index);
+
     tauri::Builder::default()
-        .manage(AppDataModelState(Default::default()))
-        .manage({
-            let mut jms: JokesModelState = JokesModelState(Default::default());
-            jms.0.lock().unwrap().load();
-            jms
-        })
+        .manage(aps)
+        .manage(jms)
         .invoke_handler(tauri::generate_handler![
             get_current_joke_id,
             get_current_joke_title,
