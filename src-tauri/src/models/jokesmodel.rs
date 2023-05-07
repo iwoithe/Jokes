@@ -85,6 +85,8 @@ impl JokesModel {
             }
         }
 
+        used_tags.sort_by(|a, b| a.to_lowercase().cmp(&b.to_lowercase()));
+
         used_tags
     }
 
