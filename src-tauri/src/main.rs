@@ -24,6 +24,7 @@ use models::{
     get_jokes,
     next_joke,
     previous_joke,
+    get_is_first_joke,
     JokeModel,
     JokesModel,
     JokesModelState
@@ -59,7 +60,8 @@ fn main() {
             get_joke_is_favourited,
             set_joke_is_favourited,
             next_joke,
-            previous_joke
+            previous_joke,
+            get_is_first_joke
         ])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");

@@ -238,6 +238,20 @@ button {
   fill: black;
 }
 
+.btn-arrow:disabled {
+  cursor: not-allowed;
+}
+
+.btn-arrow:disabled svg {
+  fill: none;
+  stroke: #75a88f;
+}
+
+.btn-arrow:disabled:hover svg {
+  fill: none;
+  stroke: #8bc8aa;
+}
+
 .icon-lg {
   width: 64px;
   height: 64px;

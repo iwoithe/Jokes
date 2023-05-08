@@ -10,6 +10,7 @@ export const load = (async ({ params }) => {
             title: await invoke("get_current_joke_title"),
             body: await invoke("get_current_joke_body"),
             is_favourited: await invoke("get_current_joke_is_favourited")
-        }
+        },
+        is_first_joke: await invoke("get_is_first_joke")
     };
 }) satisfies PageLoad;

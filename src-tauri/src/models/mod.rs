@@ -21,7 +21,8 @@ pub use appdatamodel::{
     set_current_joke_is_favourited,
     get_joke_is_favourited,
     set_joke_is_favourited,
-    get_joke
+    get_joke,
+    get_is_first_joke
 };
 pub use jokemodel::JokeModel;
 pub use jokesmodel::{

@@ -35,6 +35,10 @@ impl AppDataModel {
     pub fn get_tag_filters(&self) -> Vec<String> {
         self.tag_filters.clone()
     }
+
+    pub fn get_is_first_joke(&self) -> bool {
+        self.joke_history.len() == 1
+    }
 }
 
 pub struct AppDataModelState(pub Mutex<AppDataModel>);
@@ -181,4 +185,9 @@ pub fn get_tag_filters(app_data_model_state: State<AppDataModelState>) -> Vec<St
 #[tauri::command]
 pub fn set_tag_filters(app_data_model_state: State<AppDataModelState>, tag_filters: Vec<String>) {
     app_data_model_state.0.lock().unwrap().tag_filters = tag_filters;
+}
+
+#[tauri::command]
+pub fn get_is_first_joke(app_data_model_state: State<AppDataModelState>) -> bool {
+    app_data_model_state.0.lock().unwrap().get_is_first_joke()
 }
