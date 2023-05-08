@@ -12,7 +12,7 @@
             "title": "I was up all night looking for the sun",
             "body": "Then it dawned on me",
             "tags": ["Sun"],
-            "is_favourited": true
+            "is_favourited": false
         },
         {
             "id": 2,
