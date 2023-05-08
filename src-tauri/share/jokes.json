@@ -979,6 +979,13 @@
             "body": "Unfortunately I keep falling into the bath.",
             "tags": ["Dance", "Tap dancing", "Dancing"],
             "is_favourited": false
+        },
+        {
+            "id": 141,
+            "title": "My son asked me, \"Dad, can I eat the last piece of cake in the fridge?\"",
+            "body": "I smiled and said, \"Sure... but the dining room would probably be more comfortable.\"",
+            "tags": ["Food", "Cake", "Fridge, Refrigerator", "Dining room"],
+            "is_favourited": false
         }
     ]
 }
