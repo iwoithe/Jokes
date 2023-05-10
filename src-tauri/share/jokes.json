@@ -529,7 +529,7 @@
             "id": 76,
             "title": "Before I criticise a man, I like to walk a mile in his shoes.",
             "body": "That way, when I do criticise him, I'm a mile away and I have his shoes.",
-            "tags": ["Criticising"],
+            "tags": ["Criticising", "Shoe", "Walking"],
             "is_favourited": false
         },
         {
@@ -597,7 +597,7 @@
         },
         {
             "id": 86,
-            "title": "I used to think I was undecisive, but now I'm not too sure.",
+            "title": "I used to think I was indecisive, but now I'm not too sure.",
             "body": "",
             "tags": ["Decisive"],
             "is_favourited": false
@@ -984,7 +984,77 @@
             "id": 141,
             "title": "My son asked me, \"Dad, can I eat the last piece of cake in the fridge?\"",
             "body": "I smiled and said, \"Sure... but the dining room would probably be more comfortable.\"",
-            "tags": ["Food", "Cake", "Fridge, Refrigerator", "Dining room"],
+            "tags": ["Food", "Cake", "Fridge", "Refrigerator", "Dining room"],
+            "is_favourited": false
+        },
+        {
+            "id": 142,
+            "title": "I saw a magic car driving down the road.",
+            "body": "It turned into a petrol station.",
+            "tags": ["Car", "Driving", "Petrol station", "Gas station", "Magic"],
+            "is_favourited": false
+        },
+        {
+            "id": 143,
+            "title": "A cop asked me why I was driving so fast.",
+            "body": "\"Helping you pay for donuts.\" was not the right answer.",
+            "tags": ["Car", "Police", "Donut"],
+            "is_favourited": false
+        },
+        {
+            "id": 144,
+            "title": "Once while driving in Europe, I hit a pole.",
+            "body": "I'm now wanted in Poland for manslaughter.",
+            "tags": ["Poland", "Pole", "Driving"],
+            "is_favourited": false
+        },
+        {
+            "id": 145,
+            "title": "Did you hear about the pasta and its cooking water?",
+            "body": "Their relationship was strained.",
+            "tags": ["Pasta", "Water", "Relationship", "Food"],
+            "is_favourited": false
+        },
+        {
+            "id": 146,
+            "title": "Crime in multi-story car parks is wrong on multiple levels.",
+            "body": "",
+            "tags": ["Crime", "Car", "Park", "Car park"],
+            "is_favourited": false
+        },
+        {
+            "id": 147,
+            "title": "My wife hated the new expensive revolving chair that I bought, but then she sat on it.",
+            "body": "Eventually she came around.",
+            "tags": ["Chair"],
+            "is_favourited": false
+        },
+        {
+            "id": 148,
+            "title": "Policeman: \"Sit on that chair, we're gona interrogate you.\"",
+            "body": "Lawyer (whispering): \"Deny everything.\"<br><br>Me (loudly): That's not a chair!",
+            "tags": ["Chair", "Police", "Laywer"],
+            "is_favourited": false
+        },
+        {
+            "id": 149,
+            "title": "A murderer was secured to an electric chair, about to be executed.",
+            "body": "The chaplain approached him and asked, \"Do you have any last requests?\"<br><br>\"Yes,\" replied the murderer. \"Would you hold my hand?\"",
+            "tags": ["Chair"],
+            "is_favourited": false
+        },
+        {
+            "id": 150,
+            "title": "Do you know anyone who will be alone without family or friends for Christmas?",
+            "body": "Because I need to borrow some chairs.",
+            "tags": ["Chair"],
+            "is_favourited": false
+        },
+        {
+            "id": 151,
+            "title": "I asked my boss for a raise.",
+            "body": "He bought me an adjustable chair.",
+            "tags": ["Chair", "Boss", "Work"],
             "is_favourited": false
         }
     ]
