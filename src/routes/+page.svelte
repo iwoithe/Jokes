@@ -7,8 +7,8 @@
 
   import Favourite from "$lib/Favourite.svelte";
 
-  let isFirstJoke = data.is_first_joke;
-  $: isFirstJoke = data.is_first_joke;
+  let isFirstJoke = data.isFirstJoke;
+  $: isFirstJoke = data.isFirstJoke;
   
   function nextJoke() {
     invoke("next_joke");
@@ -58,10 +58,10 @@
       </button>
       <!-- Content -->
       <div class="index-joke-container bg-white">
-        <Favourite jokeId={ data.current_joke.id } isFavourited={ data.current_joke.is_favourited }></Favourite>
-        <p id="joke-title-text" class="text-body-bold">{ @html data.current_joke.title }</p>
-        {#if data.current_joke.body !== ""}
-          <p id="joke-body-text" class="text-body">{ @html data.current_joke.body }</p>
+        <Favourite jokeId={ data.currentJoke.id } isFavourited={ data.currentJoke.isFavourited }></Favourite>
+        <p id="joke-title-text" class="text-body-bold">{ @html data.currentJoke.title }</p>
+        {#if data.currentJoke.body !== ""}
+          <p id="joke-body-text" class="text-body">{ @html data.currentJoke.body }</p>
         {/if}
       </div>
       <!-- Right arrow -->
