@@ -1056,6 +1056,27 @@
             "body": "He bought me an adjustable chair.",
             "tags": ["Chair", "Boss", "Work"],
             "is_favourited": false
+        },
+        {
+            "id": 152,
+            "title": "They say money is covered in germs.",
+            "body": "But I don't think even germs could live on the money I make.",
+            "tags": ["Germ", "Money"],
+            "is_favourited": false
+        },
+        {
+            "id": 153,
+            "title": "Did you hear the joke about the germ?",
+            "body": "Actually, never mind. I don't want to spread it around.",
+            "tags": ["Germ"],
+            "is_favourited": false
+        },
+        {
+            "id": 154,
+            "title": "The fact that germs enter my body without my consent is wrong.",
+            "body": "And to be honest it makes me sick.",
+            "tags": ["Germ", "Consent", "Sick"],
+            "is_favourited": false
         }
     ]
 }
