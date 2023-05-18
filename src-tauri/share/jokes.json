@@ -1077,6 +1077,13 @@
             "body": "And to be honest it makes me sick.",
             "tags": ["Germ", "Consent", "Sick"],
             "is_favourited": false
+        },
+        {
+            "id": 155,
+            "title": "A grasshopper goes into a bar.",
+            "body": "The bartender says, \"Hey, we have a drink named after you!\"<br><br>The grasshopper responds, \"You have a drink named Steve?\"",
+            "tags": ["Bar", "Grasshopper", "Animal", "Drink"],
+            "is_favourited": false
         }
     ]
 }
