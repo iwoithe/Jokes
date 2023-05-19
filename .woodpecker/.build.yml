@@ -1,0 +1,7 @@
+pipeline:
+  build:
+    image: node:latest rust:latest
+    commands:
+      - corepack enable
+      - corepack prepare pnpm@latest --activate
+      - pnpm tauri build
