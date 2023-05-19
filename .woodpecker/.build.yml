@@ -6,6 +6,3 @@ pipeline:
       - corepack prepare pnpm@latest --activate
       - curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
       - pnpm tauri build
-
-depends_on:
-  - setup-env
