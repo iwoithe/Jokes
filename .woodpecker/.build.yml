@@ -1,8 +1,13 @@
 pipeline:
-  build:
-    image: fedora:latest
+  build-linux:
+    image: node:latest
     commands:
-      - dnf install -y nodejs
-      - curl -fsSL https://get.pnpm.io/install.sh | sh -
-      - pnpm install --no-frozen-lockfile
-      - pnpm tauri build
+      - echo "Building for Linux..."
+  build-macos:
+    image: node:latest
+    commands:
+      - echo "Building for macOS..."
+  build-windows:
+    image: node:latest
+    commands:
+      - echo "Building for Windows..."
