@@ -3,7 +3,6 @@ pipeline:
     image: fedora:latest
     commands:
       - dnf install -y nodejs
-      - dnf install -y corepack
       - curl -fsSL https://get.pnpm.io/install.sh | sh -
       - pnpm install --no-frozen-lockfile
       - pnpm tauri build
