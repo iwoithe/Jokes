@@ -1,0 +1,4 @@
+pipeline:
+  setup-env:
+    commands:
+    - echo "Setting up the environment"
