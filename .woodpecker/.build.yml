@@ -1,7 +1,9 @@
 pipeline:
   build:
-    image: node:latest
+    image: fedora:latest
     commands:
+      - dnf install nodejs
+      # - curl -fsSL https://rpm.nodesource.com/setup_20.x | sudo bash -
       - corepack enable
       - corepack prepare pnpm@latest --activate
       - pnpm install --no-frozen-lockfile
