@@ -4,5 +4,5 @@ pipeline:
     commands:
       - corepack enable
       - corepack prepare pnpm@latest --activate
-      - pnpm install
+      - pnpm install --no-frozen-lockfile
       - pnpm tauri build
