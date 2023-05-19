@@ -4,4 +4,5 @@ pipeline:
     commands:
       - corepack enable
       - corepack prepare pnpm@latest --activate
+      - pnpm install
       - pnpm tauri build
