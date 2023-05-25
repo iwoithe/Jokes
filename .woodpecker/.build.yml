@@ -4,13 +4,19 @@ pipeline:
     image: node:latest
     commands:
       - echo "Building for Linux..."
+      - npm install
+      - npm tauri dev
   build-macos:
     platform: darwin/amd64
     image: node:latest
     commands:
       - echo "Building for macOS..."
+      - npm install
+      - npm tauri dev
   build-windows:
     platform: windows/amd64
     image: node:latest
     commands:
       - echo "Building for Windows..."
+      - npm install
+      - npm tauri dev
