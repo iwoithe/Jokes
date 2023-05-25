@@ -3,28 +3,17 @@
     windows_subsystem = "windows"
 )]
 
+mod controllers;
+use controllers::{
+    filterscontroller,
+    jokescontroller,
+    tagscontroller
+};
+
 mod models;
 use models::{
     AppDataModel,
     AppDataModelState,
-    get_current_joke_id,
-    get_current_joke_title,
-    get_current_joke_body,
-    get_current_joke_is_favourited,
-    set_current_joke_is_favourited,
-    get_joke_is_favourited,
-    set_joke_is_favourited,
-    get_filtered_jokes,
-    get_fav_filter,
-    set_fav_filter,
-    get_tag_filters,
-    set_tag_filters,
-    get_used_tags,
-    get_joke,
-    get_jokes,
-    next_joke,
-    previous_joke,
-    get_is_first_joke,
     JokeModel,
     JokesModel,
     JokesModelState
@@ -44,24 +33,24 @@ fn main() {
         .manage(aps)
         .manage(jms)
         .invoke_handler(tauri::generate_handler![
-            get_current_joke_id,
-            get_current_joke_title,
-            get_current_joke_body,
-            get_filtered_jokes,
-            get_used_tags,
-            get_fav_filter,
-            set_fav_filter,
-            get_tag_filters,
-            set_tag_filters,
-            get_joke,
-            get_jokes,
-            get_current_joke_is_favourited,
-            set_current_joke_is_favourited,
-            get_joke_is_favourited,
-            set_joke_is_favourited,
-            next_joke,
-            previous_joke,
-            get_is_first_joke
+            filterscontroller::get_fav_filter,
+            filterscontroller::set_fav_filter,
+            filterscontroller::get_tag_filters,
+            filterscontroller::set_tag_filters,
+            jokescontroller::next_joke,
+            jokescontroller::previous_joke,
+            jokescontroller::get_current_joke_id,
+            jokescontroller::get_current_joke_title,
+            jokescontroller::get_current_joke_body,
+            jokescontroller::get_joke_is_favourited,
+            jokescontroller::set_joke_is_favourited,
+            jokescontroller::get_current_joke_is_favourited,
+            jokescontroller::set_current_joke_is_favourited,
+            jokescontroller::get_filtered_jokes,
+            jokescontroller::get_joke,
+            jokescontroller::get_jokes,
+            jokescontroller::get_is_first_joke,
+            tagscontroller::get_used_tags
         ])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
