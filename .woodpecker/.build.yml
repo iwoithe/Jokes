@@ -1,13 +1,16 @@
 pipeline:
   build-linux:
+    platform: linux/amd64
     image: node:latest
     commands:
       - echo "Building for Linux..."
   build-macos:
+    platform: darwin/amd64
     image: node:latest
     commands:
       - echo "Building for macOS..."
   build-windows:
+    platform: windows/amd64
     image: node:latest
     commands:
       - echo "Building for Windows..."
