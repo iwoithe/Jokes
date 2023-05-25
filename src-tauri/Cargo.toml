@@ -1,10 +1,10 @@
 [package]
 name = "jokes"
 version = "0.0.0"
-description = "A Tauri App"
-authors = ["you"]
-license = ""
-repository = ""
+description = "An app that remembers your jokes so you don't have to."
+authors = ["Ilias Woithe"]
+license = "GNU General Public License v3"
+repository = "https://codeberg.org/iwoithe/jokes.git"
 edition = "2021"
 rust-version = "1.57"
 
