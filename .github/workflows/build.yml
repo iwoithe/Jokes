@@ -1,5 +1,12 @@
-name: 'build-pull-request'
-on: [pull_request]
+name: 'build'
+on:
+  push:
+    branches: [ main ]
+    tags:
+      - "v*.*.*"
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   test-tauri:
@@ -31,3 +38,9 @@ jobs:
       - uses: tauri-apps/tauri-action@v0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Upload the Build Artifact
+        uses: actions/upload-artifact@v3.0.0
+        with:
+          name: ${{ matrix.platform }}
+          path: "src-tauri/target/release/bundle/*"
+      
