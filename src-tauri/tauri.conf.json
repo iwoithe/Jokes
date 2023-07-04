@@ -13,6 +13,9 @@
   "tauri": {
     "allowlist": {
       "all": false,
+      "fs": {
+        "scope": ["$RESOURCE/*"]
+      },
       "shell": {
         "all": false,
         "open": true
@@ -54,7 +57,10 @@
         "signingIdentity": null
       },
       "publisher": "Ilias Woithe",
-      "resources": [],
+      "resources": [
+        "share/appdata.json",
+        "share/jokes.json"
+      ],
       "shortDescription": "",
       "targets": "all",
       "windows": {
